@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family:'Gill Sans', sans-serif ;
+}
+.header{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qusetion { 
+    width: 60%;
+    margin: 0 auto;
+
+}
+.qusetion .text{
+    background-color: #eee;
+    color: rgb(19, 17, 17);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 18px;
+    outline: none;
+    border:navajowhite;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    transition: 0.4s ;
+}
+.panel{
+    padding: 0 18px;
+    background-color: rgb(139, 38, 38);
+display: none;
+    overflow: hidden;
+    width: 100%;
+
+}
+.active,.text:hover{
+    background-color: rgb(17, 12, 12);
+}
